@@ -15,7 +15,7 @@
       "value": "10.31.5.0/24"
     },
     "subnetAPPCIDRA": {
-      "value": "10.31.6.0/24"
+      "value": "10.31.6.0/23"
     },
     "subnetCBTCIDRA": {
       "value": "10.31.3.0/28"
