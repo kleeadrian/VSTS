@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "DEV-VNET01"
+    },
+    "vnetCIDR": {
+      "value": "10.31.0.0/20"
+    },
+    "environmentA": {
+      "value": "Development"
+    },
+    "subnetDMZCIDRA": {
+      "value": "10.31.5.0/24"
+    },
+    "subnetAPPCIDRA": {
+      "value": "10.31.6.0/24"
+    },
+    "subnetCBTCIDRA": {
+      "value": "10.31.3.0/28"
+    },
+    "subnetADCIDRA": {
+      "value": "10.31.2.0/24"
+    },
+    "subnetBASCIDR": {
+      "value": "10.31.1.0/28"
+    },
+    "subnetAGWCIDRA": {
+      "value": "10.31.4.0/28"
+    },
+    "subnetGWCIDR": {
+      "value": "10.31.0.0/27"
+    },
+    "buildDate": {
+      "value": "06/10/2017"
+    },
+    "buildBy": {
+      "value": "Lee Hardy"
+    }
+  }
+}
